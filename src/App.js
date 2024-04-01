@@ -1,10 +1,14 @@
+import "./App.css";
+import Header from "./companents/Header";
+import Question from "./companents/Question";
 
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-    hello
+    <div>
+      <Header />
+      <Question />
     </div>
   );
 }
